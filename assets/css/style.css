@@ -1,12 +1,14 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'roboto', sans-serif;
 }
 
 body {
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
 }
 
 .c-item {
@@ -19,10 +21,22 @@ h1 {
 }
 
 .container {
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
 }
 
-#carta {
-    display: flex;
+.favicon {
+    background-color: aqua;
+    text-align: center;
 }
+
+.card-1 {
+    background-color: aqua;
+}
+
+#footer {
+    background-color: aqua;
+
+}
+
+.card {}

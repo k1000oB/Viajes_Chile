@@ -99,9 +99,11 @@
     <header id="quienes-somos">
         <div class="container py-4 pb-8">
             <h1>¿QUIENES SOMOS?</h1>
-            <div class="row align-items-start">
+            <div class="row">
                 <div class="col justify-content">
-                    <i class="fa-solid fa-plane"></i>
+                    <div class="favicon">
+                        <i class="fa-solid fa-plane"></i>
+                    </div>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam labore fugiat doloribus alias
                         doloremque, quam dolore impedit commodi asperiores id nulla ipsum ratione laudantium, odit aut
@@ -125,10 +127,14 @@
                         explicabo non dignissimos nesciunt, architecto nihil delectus fugiat ipsa vitae accusamus
                         tempore unde.
                     </p>
-                    <i class="fa-solid fa-mountain-city"></i>
+                    <div class="favicon">
+                        <i class="fa-solid fa-mountain-city"></i>
+                    </div>
                 </div>
                 <div class="col justify-content">
-                    <i class="fa-solid fa-map-location-dot"></i>
+                    <div class="favicon">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cupiditate at dolore totam nam
                         illo explicabo mollitia porro quas perferendis minus, deserunt nihil, nulla debitis delectus
@@ -147,41 +153,93 @@
 
     <!-- Cards -->
 
-    <section id="Carta" class="container">
-        <h1 class=" text-center mt-4 mb-5">DESTACADOS</h1>
-        <div class="row ms-auto">
+    <section id="card-1" class="container-card py-4 pb-4">
+        <h1>DESTACADOS</h1>
+        <div class="row">
             <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card bg-info" style="width: 18rem;">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's
-                                content.</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's
-                                    content.</p>
-                            </div>
-                        </div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est ipsa eum a
+                            odit,
+                            aperiam voluptates sit et voluptatibus quos, vel, cumque fugiat error rem saepe architecto?
+                            Eveniet velit saepe nesciunt!</p>
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <div class="card bg-info" style="width: 18rem;">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est ipsa eum a
+                            odit,
+                            aperiam voluptates sit et voluptatibus quos, vel, cumque fugiat error rem saepe architecto?
+                            Eveniet velit saepe nesciunt!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-info" style="width: 18rem;">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est ipsa eum a
+                            odit,
+                            aperiam voluptates sit et voluptatibus quos, vel, cumque fugiat error rem saepe architecto?
+                            Eveniet velit saepe nesciunt!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-info" style="width: 18rem;">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est ipsa eum a
+                            odit,
+                            aperiam voluptates sit et voluptatibus quos, vel, cumque fugiat error rem saepe architecto?
+                            Eveniet velit saepe nesciunt!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacto -->
+    <section class="container pt-5">
+        <h1 class="text-center">Contacto</h1>
+        <div class="row">
+            <div class="col">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                </div>
+                <div id="enviar">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Footer -->
+    <footer class="container icons-section py-4 pt-4 bg-info">
+        <h2>VIAJES CHILE</h2>
+        <div class="row">
+            <div class="col">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+
+        </div>
+
+    </footer>
 
 
 
