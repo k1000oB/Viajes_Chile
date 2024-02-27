@@ -16,6 +16,7 @@ body {
     object-fit: cover;
 }
 
+
 h1 {
     text-align: center;
 }
@@ -36,5 +37,11 @@ h1 {
 
 #footer {
     background-color: aqua;
+}
+
+#footer,
+a {
+    display: inline-block;
+    padding: 10x;
 
 }
