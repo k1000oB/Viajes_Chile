@@ -39,9 +39,9 @@ h1 {
     background-color: aqua;
 }
 
-#footer,
 a {
+    text-align: right;
+    padding: 10px;
     display: inline-block;
-    padding: 10x;
 
 }
